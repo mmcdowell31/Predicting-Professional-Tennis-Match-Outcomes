@@ -84,10 +84,13 @@ Below is a correlation matrix of the features in the dataset:
 The data was split (90/10) train/test in order to build the following classification models: 
 
    1)Logistic Regression
+   
    2)K-Nearest-Neighbors
+   
    3)Random Forests
+   
    4)XGBoost
 
-After opttmizing the model parameters, each model was evaulated  using 100 Monte Carlo cross validation simulations. Below are the results of these simulations: 
+After optmizing the model parameters, each model was evaulated  using 100 Monte Carlo cross validation simulations. Below are the results of these simulations: 
 
 ![Alt Text](model_results.png)
