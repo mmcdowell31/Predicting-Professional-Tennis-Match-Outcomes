@@ -30,7 +30,7 @@ import kagglehub
 path = kagglehub.dataset_download("sijovm/atpdata")
 ```
 
-## EDA
+## Exploratory Data Analysis
 
 In total, this dataset contains 26 features from over 183,000 professional matches,. Of
 these 26 features only 8 pertained to in-game match performance,these along with player
