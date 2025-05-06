@@ -74,6 +74,20 @@ For this analysis I selected 10,000 samples at random and created the following 
 
 ![Alt Text](Distribution_of_Features_by_Surface_Type.png)
 
+Below is a correlation matrix of the features in the dataset:
+
+
 ![Alt Text](correlation_matrix.png)
+
+## Results
+
+The data was split (90/10) train/test in order to build the following classification models: 
+
+   1)Logistic Regression
+   2)K-Nearest-Neighbors
+   3)Random Forests
+   4)XGBoost
+
+After opttmizing the model parameters, each model was evaulated  using 100 Monte Carlo cross validation simulations. Below are the results of these simulations: 
 
 
