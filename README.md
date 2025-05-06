@@ -32,7 +32,7 @@ For this analysis I selected 10,000 samples at random and created the following 
 
 
 
-![Alt Text](Distribution of Features by Surface Type.png)
+![Alt Text](Distribution_of_Features_by_Surface_Type.png)
 
 ![Alt Text](correlation_matrix.png)
 
