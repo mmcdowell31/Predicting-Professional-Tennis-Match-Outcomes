@@ -14,7 +14,7 @@ models.
 
 To install and use this project, ensure you have the following:
 
-1. **Python**: Version 3.x is recommended. You can download it from [python.org](https://www.python.org/).
+1. **Python**: Version 3.11.11  is recommended. You can download it from [python.org](https://www.python.org/).
 
 2. **Dependencies**: The required Python libraries are listed in the `requirements.txt` file. Common dependencies include:
    - numpy
