@@ -21,4 +21,17 @@ import kagglehub
 path = kagglehub.dataset_download("sijovm/atpdata")
 ```
 
+## EDA
+
+In total, this dataset contains 26 features from over 183,000 professional matches,. Of
+these 26 features only 8 pertained to in-game match performance,these along with player
+height, player age, and court surface were used to train the classifiers. Additionally, I created
+a binary variable (win) that indicates wether the player won or lost the match. In this analysis
+the win variable will serve as the response and the rest of the data will be used as predictors.
+For this analysis I selected 10,000 samples at random and created the following histograms: 
+
+
+
+![Alt Text](Distribution of Features by Surface Type.png)
+
 %![Alt Text](correlation_matrix.png)
