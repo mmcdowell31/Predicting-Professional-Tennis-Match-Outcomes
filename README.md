@@ -90,4 +90,4 @@ The data was split (90/10) train/test in order to build the following classifica
 
 After opttmizing the model parameters, each model was evaulated  using 100 Monte Carlo cross validation simulations. Below are the results of these simulations: 
 
-
+![Alt Text](model_results.png)
