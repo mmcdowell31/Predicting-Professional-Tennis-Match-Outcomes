@@ -3,7 +3,11 @@ Predicting Professional Tennis Match Outcomes: A Comparative Study of Ensemble m
 
 This project assess the effectiveness of two types different ensemble methods: random
 forests and boosting to create a classifier model to predict the results of professional tennis
-matches compared to baseline models.
+matches. These methods were compared against baseline models such as logistic regression
+and K-nearest-neighbors. Cross validation was used in order to tune the parameters of these
+models as well as evaluate the testing error and variance of their predictions. The findings
+demonstrate that the XGBoost model produced the best classifier and outperformed the other
+models.
 
 ## Data
 The dataset used in this analysis has ATP (men’s professional tennis) match data starting from
