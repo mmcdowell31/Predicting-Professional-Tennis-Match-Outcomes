@@ -10,10 +10,11 @@ import kagglehub
 path = kagglehub.dataset_download("sijovm/atpdata")
 '''
 
-```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
+```python
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("sijovm/atpdata")
 ```
 
 %![Alt Text](correlation_matrix.png)
