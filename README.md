@@ -1,14 +1,10 @@
 # Predicting-Professional-Tennis-Match-Outcomes
 Predicting Professional Tennis Match Outcomes: A Comparative Study of Ensemble models (XGBoost/Random Forests) and Baseline Models
 ## Data
+This data was downloaded from https://www.kaggle.com/datasets/sijovm/atpdata/data
+
 
 In order to dowload the most recent version of this data see below: 
-'''ruby
-import kagglehub
-
-# Download latest version
-path = kagglehub.dataset_download("sijovm/atpdata")
-'''
 
 ```python
 import kagglehub
