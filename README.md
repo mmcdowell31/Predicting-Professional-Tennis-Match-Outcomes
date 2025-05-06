@@ -1,5 +1,10 @@
 # Predicting-Professional-Tennis-Match-Outcomes
 Predicting Professional Tennis Match Outcomes: A Comparative Study of Ensemble models (XGBoost/Random Forests) and Baseline Models
+
+This project assess the effectiveness of two types different ensemble methods: random
+forests and boosting to create a classifier model to predict the results of professional tennis
+matches compared to baseline models.
+
 ## Data
 The dataset used in this analysis has ATP (men’s professional tennis) match data starting from
 1968 which is considered the beginning of the "Open Era" in men’s professional tennis.
