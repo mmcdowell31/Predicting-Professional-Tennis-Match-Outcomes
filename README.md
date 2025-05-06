@@ -9,21 +9,36 @@ models as well as evaluate the testing error and variance of their predictions. 
 demonstrate that the XGBoost model produced the best classifier and outperformed the other
 models.
 
+
 ## Requirements
 
 To install and use this project, ensure you have the following:
 
 1. **Python**: Version 3.x is recommended. You can download it from [python.org](https://www.python.org/).
 
-2. **Jupyter Notebook**: Install it using pip:
-   ```bash
-   pip install notebook
-   pip install -r requirements.txt
-   git clone https://github.com/mmcdowell31/Predicting-Professional-Tennis-Match-Outcomes.git
-   cd Predicting-Professional-Tennis-Match-Outcomes
-   pip install -r requirements.txt
-   ```
+2. **Dependencies**: The required Python libraries are listed in the `requirements.txt` file. Common dependencies include:
+   - numpy
+   - pandas
+   - scikit-learn
+   - xgboost
+   - matplotlib
+   - seaborn
+   - jupyter
+   - kaggle
+## Installation
 
+Follow these steps to set up the project:
+
+```bash
+# Clone the repository
+git clone https://github.com/mmcdowell31/Predicting-Professional-Tennis-Match-Outcomes.git
+
+# Navigate to the project directory
+cd Predicting-Professional-Tennis-Match-Outcomes
+
+# Install the required dependencies
+pip install -r requirements.txt
+ '''  
 ## Data
 The dataset used in this analysis has ATP (men’s professional tennis) match data starting from
 1968 which is considered the beginning of the "Open Era" in men’s professional tennis.
